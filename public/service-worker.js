@@ -1,6 +1,6 @@
 // Al instalar el Service Worker, se almacenan los archivos en caché
 self.addEventListener('install', (event) => {
-  console.log('Service Worker installing.');
+  console.log('Service Worker installing .');
   event.waitUntil(
     caches.open('reloj-pwa-cache').then((cache) => {
       return cache.addAll([
