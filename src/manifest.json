@@ -1,0 +1,23 @@
+{
+    "name": "Reloj PWA",
+    "short_name": "Reloj",
+    "description": "Una aplicación PWA para mostrar la hora",
+    "theme_color": "#42b983",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "orientation": "portrait",
+    "start_url": ".",
+    "icons": [
+      {
+        "src": "icon/tiempo.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "icon/reloj.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  
